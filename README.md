@@ -1,6 +1,8 @@
 # Dead-Rig
 Dead Rig Game Project
+
 Authored by: Jordan Humphrey
+
 ### Merge Request Rules
 1.) Any push to the maaster branch will only be approved if it does not break the current working version of the game.
 
