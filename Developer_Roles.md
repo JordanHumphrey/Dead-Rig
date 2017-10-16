@@ -2,7 +2,7 @@
 
 Team Lead: Jordan Humphrey
 
-###Development: (As current)
+### Development: (As current)
 
 Power/Gravity Chamber (Arena 1): Nelson DeBate, Markus Jackson
 
