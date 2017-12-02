@@ -13,3 +13,5 @@ Particle and Sound Effects: Steven Silalahi
 Camera and Effects: Morgan Perry
 
 Modelling/ Main Menu/ Main Arena/ Lighting /VoiceOver Recording: Jordan Humphrey
+
+UI: Paul Rowe
