@@ -15,14 +15,8 @@ public class movement : MonoBehaviour
 
     static public bool set = false;
 
-    bool highEnough = false;
 
-
-
-
-
-
-
+    public static bool highEnough = false;
 
     static public int control = 1;
 
@@ -101,7 +95,7 @@ public class movement : MonoBehaviour
         if (control == 2)
         {
 
-            if (crane.transform.position.y != 60) ;
+            if (crane.transform.position.y != 60);
             {
                 newPosition.y--;
                 crane.transform.position = newPosition;

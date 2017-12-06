@@ -46,6 +46,7 @@ public class clawClose3 : MonoBehaviour {
         {
             lowerLimit = true;
         }
-        
+
+
     }
 }

@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class scoreScript : MonoBehaviour {
-    public Text countText;
-    public Text loseText;
-    public int count;
+    public  Text countText;
+    public  Text loseText;
+    public  int count;
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +23,7 @@ public class scoreScript : MonoBehaviour {
 
     
 
-    void SetCountText()
+     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
         if (count >= 10)

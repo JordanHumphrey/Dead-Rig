@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sticky : MonoBehaviour {
+public class dropItem : MonoBehaviour {
 
     
 

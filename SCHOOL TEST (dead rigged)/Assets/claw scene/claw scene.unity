@@ -313,13 +313,11 @@ MonoBehaviour:
   - {fileID: 1253805216154368, guid: a0794bc99aedd57429169a9acb0e9c11, type: 2}
   - {fileID: 1796432043610386, guid: 60913a9e6b149b54dbfeb8b67a7b2213, type: 2}
   - {fileID: 1381283144219030, guid: e15c26bc7d0d7f74a8b25df17bc13696, type: 2}
-  clone:
-  - {fileID: 1253805216154368, guid: a0794bc99aedd57429169a9acb0e9c11, type: 2}
-  - {fileID: 1796432043610386, guid: 60913a9e6b149b54dbfeb8b67a7b2213, type: 2}
-  - {fileID: 1381283144219030, guid: e15c26bc7d0d7f74a8b25df17bc13696, type: 2}
+  clone: []
   countText: {fileID: 426217952}
   loseText: {fileID: 2077750781}
   timeDelay: 5
+  spawnTime: 5
 --- !u!4 &107341940
 Transform:
   m_ObjectHideFlags: 0
@@ -2007,7 +2005,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400036, guid: baa4b873dfb5e364d83fff22e324ab56, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1599905613}
-  m_LocalRotation: {x: 0.6518817, y: -0.34749657, z: 0.59228814, w: 0.32170033}
+  m_LocalRotation: {x: 0.65188175, y: -0.3474966, z: 0.5922882, w: 0.32170036}
   m_LocalPosition: {x: 8.49, y: -10.49, z: 0.6146157}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
