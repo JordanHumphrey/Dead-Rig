@@ -11,7 +11,7 @@ public class spawner : MonoBehaviour {
 
     public Text countText;
     public Text loseText;
-    private int count = 0;
+    static public int count = 0;
 
     
     public float timeDelay = 5;

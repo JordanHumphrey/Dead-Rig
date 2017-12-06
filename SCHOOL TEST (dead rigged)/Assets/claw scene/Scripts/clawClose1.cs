@@ -31,18 +31,19 @@ public class clawClose1 : MonoBehaviour {
 
 
 
-       if (Input.GetKey("q") && lowerLimit == false)
+       if (movement.close1 && lowerLimit == false)
         {
             upperLimit = false;
             
-            transform.Rotate(0, 0, -10);
+            transform.Rotate(0, 0, -15);
             
         }
 
-        if(Input.GetKey("e") && upperLimit == false )
+        if(movement.close1 == false && upperLimit == false )
         {
+            movement.close1 = false;
             lowerLimit = false;
-            transform.Rotate(0, 0, +10);
+            transform.Rotate(0, 0, +15);
           
         }
 

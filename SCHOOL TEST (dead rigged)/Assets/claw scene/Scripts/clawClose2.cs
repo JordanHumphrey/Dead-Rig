@@ -28,16 +28,16 @@ public class clawClose2 : MonoBehaviour {
         */
          
         
-        if(Input.GetKey("q") && lowerLimit == false)
+        if(movement.close1 && lowerLimit == false)
         {
             upperLimit = false;
-            transform.Rotate(0, 0, +10);
+            transform.Rotate(0, 0, +15);
         }
 
-        if(Input.GetKey("e") && upperLimit == false)
+        if(movement.close1 == false && upperLimit == false)
         {
             lowerLimit = false;
-            transform.Rotate(0, 0, -10);
+            transform.Rotate(0, 0, -15);
         }
 
         if(transform.rotation.z >= 0.1253231)

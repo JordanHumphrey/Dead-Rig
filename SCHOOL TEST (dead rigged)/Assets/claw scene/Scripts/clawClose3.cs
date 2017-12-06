@@ -24,15 +24,15 @@ public class clawClose3 : MonoBehaviour {
         
 
 
-        if(Input.GetKey("q") && lowerLimit == false)
+        if(movement.close1 && lowerLimit == false)
         {
             upperLimit = false;
-            transform.Rotate(-10, 0,0);
+            transform.Rotate(-15, 0,0);
         }
-        if(Input.GetKey("e") && upperLimit == false)
+        if(movement.close1 == false && upperLimit == false)
         {
             lowerLimit = false;
-            transform.Rotate(+10, 0, 0);
+            transform.Rotate(+15, 0, 0);
         }
 
 

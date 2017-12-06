@@ -88,11 +88,12 @@
     <Compile Include="Assets\claw scene\Scripts\clawClose2.cs" />
     <Compile Include="Assets\claw scene\Scripts\clawClose3.cs" />
     <Compile Include="Assets\claw scene\Scripts\colliderStop1.cs" />
-    <Compile Include="Assets\claw scene\Scripts\movment.cs" />
+    <Compile Include="Assets\claw scene\Scripts\dropItem.cs" />
+    <Compile Include="Assets\claw scene\Scripts\keepInArena.cs" />
+    <Compile Include="Assets\claw scene\Scripts\movement.cs" />
     <Compile Include="Assets\claw scene\Scripts\pivotScript.cs" />
     <Compile Include="Assets\claw scene\Scripts\scoreScript.cs" />
     <Compile Include="Assets\claw scene\Scripts\spawner.cs" />
-    <Compile Include="Assets\claw scene\Scripts\sticky.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
